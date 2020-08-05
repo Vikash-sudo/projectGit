@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63992" started-at="2020-08-05T05:14:27Z" finished-at="2020-08-05T05:15:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63992" started-at="2020-08-05T05:14:27Z" finished-at="2020-08-05T05:15:31Z">
+      <class name="com.github.qa.testcases.CreateRepoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="setUp" is-config="true" duration-ms="16734" started-at="2020-08-05T10:44:27Z" finished-at="2020-08-05T10:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createRepositoryTest()[pri:1, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="createRepositoryTest" duration-ms="9194" started-at="2020-08-05T10:44:44Z" finished-at="2020-08-05T10:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRepositoryTest -->
+        <test-method status="PASS" signature="createIssue(java.lang.String, java.lang.String)[pri:2, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="createIssue" duration-ms="12387" started-at="2020-08-05T10:44:53Z" data-provider="SearchProvider" finished-at="2020-08-05T10:45:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Creating first issue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the issue description for testing purpose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method status="PASS" signature="createIssue(java.lang.String, java.lang.String)[pri:2, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="createIssue" duration-ms="12714" started-at="2020-08-05T10:45:05Z" data-provider="SearchProvider" finished-at="2020-08-05T10:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Creating second issue #1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is the issue description for testing purpose #1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+        <test-method status="PASS" signature="addCommentToIssue()[pri:3, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="addCommentToIssue" duration-ms="4124" started-at="2020-08-05T10:45:18Z" finished-at="2020-08-05T10:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCommentToIssue -->
+        <test-method status="PASS" signature="mentionIssueInCommentAndNavigateToIt()[pri:4, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="mentionIssueInCommentAndNavigateToIt" duration-ms="4452" started-at="2020-08-05T10:45:22Z" finished-at="2020-08-05T10:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mentionIssueInCommentAndNavigateToIt -->
+        <test-method status="PASS" signature="deleteRepoTest()[pri:5, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="deleteRepoTest" duration-ms="3453" started-at="2020-08-05T10:45:27Z" finished-at="2020-08-05T10:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRepoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.qa.testcases.CreateRepoTest@4387b79e]" name="tearDown" is-config="true" duration-ms="904" started-at="2020-08-05T10:45:30Z" finished-at="2020-08-05T10:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.github.qa.testcases.CreateRepoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

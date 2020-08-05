@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.crm.qa.testcases.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 21.332 sec <<< FAILURE!
+setUp(com.crm.qa.testcases.LoginTest)  Time elapsed: 21.217 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DDC5-DX-FTYX3Z2', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:178)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:178)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:167)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at com.crm.qa.base.TestBase.inisialize(TestBase.java:41)
+	at com.crm.qa.testcases.LoginTest.setUp(LoginTest.java:23)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8722/status] to be available after 20003 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:102)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:187)
+	... 42 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:147)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:77)
+	... 43 more
+
